@@ -1,16 +1,29 @@
 
 [
   {
+    "productlist": "Price options 1",
+    "description": "profit margin is variable",
     "pricingModel": "Subscription",
     "status": "Inactive",
     "amount": "2000/year"
   },
   {
+    "productlist": "Price options 2",
+    "description": "10% profit margin",
     "pricingModel": "EMI",
     "status": "Active",
     "amount": "10 * 2500/month"
   },
   {
+    "productlist": "Price options 3",
+    "description": "12% profit margin",
+    "pricingModel": "EMI",
+    "status": "Active",
+    "amount": "₹2500/month"
+  },
+  {
+    "productlist": "Price options 4",
+    "description": "5% profit margin",
     "pricingModel": "Lumpsum",
     "status": "Inactive",
     "amount": "2,00,000"

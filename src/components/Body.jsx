@@ -26,19 +26,22 @@ export default function Body() {
                 </div>
             </div>
 
-            {/* {PriceList.map((items) => (
+            {PriceList.map((items) => (
             <>
               <div className=" py-4 my-5 text-center w-[95%] mx-auto drop-shadow-xl border-2 xs:border-0 ">
                 <div className=" flex xs:flex-col w-full justify-between px-3 ">
-                    <p>{items.amount}</p>
-                    <p>{items.pricingModel}</p>
-                    <p>{items.status}</p>
+                    <p className=" pl-5 font-bold">{items.productlist}</p>
+                    <p>{items.description}</p>
+                    <p className=" pl-5 font-medium ">{items.amount}</p>
+                    <p className=" pl-5 font-medium ">{items.pricingModel}</p>
+                    <p className=" pl-5 font-medium ">{items.status}</p>
 
                 </div>
               </div>
             </>
-            ))} */}
-            <div className=" py-4 my-5 text-center w-[95%] mx-auto drop-shadow-xl border-2 xs:border-0 ">
+            ))}
+
+            {/* <div className=" py-4 my-5 text-center w-[95%] mx-auto drop-shadow-xl border-2 xs:border-0 ">
                 <div className=" flex xs:flex-col w-full justify-between px-3">
                     <p className=" pl-5 font-bold">Price options 1</p>
                     <p>profit margin is variable</p>
@@ -76,7 +79,7 @@ export default function Body() {
                     <p className=" pl-5 font-medium ">Lumpsum</p>
                     <p className=" pl-5 font-medium ">Active</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }
