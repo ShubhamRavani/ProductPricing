@@ -1,0 +1,20 @@
+
+[
+  {
+    "productName": "Sofa",
+    "manufacturingCost": "5000",
+    "icon": ""
+  },
+  {
+    "productName": "Bathtub",
+    "manufacturingCost": "5000"
+  },
+  {
+    "productName": "Desktop",
+    "manufacturingCost": "5000"
+  },
+  {
+    "productName": "School Bag",
+    "manufacturingCost": "5000"
+  }
+]

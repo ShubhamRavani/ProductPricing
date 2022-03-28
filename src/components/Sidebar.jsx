@@ -1,5 +1,6 @@
 import React from "react";
 import { Armchair, Backpack, Bathtub, DesktopTower } from "phosphor-react";
+import ProductList from "../productlist.json";
 
 export default function Sidebar() {
   const Products = [

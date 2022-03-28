@@ -1,4 +1,5 @@
 import React from "react";
+import PriceList from "../pricelist.json";
 
 export default function Body() {
     const All = () => {
