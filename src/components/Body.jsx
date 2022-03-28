@@ -12,8 +12,8 @@ export default function Body() {
 
     return (
         <div className=" px-3 py-3 mx-auto ">
-            <div onClick={All} className=" flex px-3 justify-between items-center">
-                <div className=" flex items-center">
+            <div className=" flex px-3 justify-between items-center">
+                <div onClick={All} className=" flex items-center">
                     <p className=" pl-5 font-semibold">All</p>
                     <p className=" pl-5 font-semibold">Subscription</p>
                     <p className=" pl-5 font-semibold">Lumpsum</p>
@@ -26,6 +26,18 @@ export default function Body() {
                 </div>
             </div>
 
+            {/* {PriceList.map((items) => (
+            <>
+              <div className=" py-4 my-5 text-center w-[95%] mx-auto drop-shadow-xl border-2 xs:border-0 ">
+                <div className=" flex xs:flex-col w-full justify-between px-3 ">
+                    <p>{items.amount}</p>
+                    <p>{items.pricingModel}</p>
+                    <p>{items.status}</p>
+
+                </div>
+              </div>
+            </>
+            ))} */}
             <div className=" py-4 my-5 text-center w-[95%] mx-auto drop-shadow-xl border-2 xs:border-0 ">
                 <div className=" flex xs:flex-col w-full justify-between px-3">
                     <p className=" pl-5 font-bold">Price options 1</p>

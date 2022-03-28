@@ -2,8 +2,8 @@
 [
   {
     "productName": "Sofa",
-    "manufacturingCost": "5000",
-    "icon": ""
+    "manufacturingCost": "5000"
+    
   },
   {
     "productName": "Bathtub",
